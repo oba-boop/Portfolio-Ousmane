@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio de Ousmane Ba - Technicien Systèmes et Réseaux spécialisé en administration d'infrastructures et cybersécurité">
+    <meta name="keywords" content="Ousmane Ba, Technicien Systèmes, Réseaux, IT, Cybersécurité, Portfolio">
+    <meta name="author" content="Ousmane Ba">
+    <title>Ousmane Ba | Technicien Systèmes & Réseaux</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">OB.</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#education" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">👋 Bonjour, je suis</p>
+                <h1 class="hero-title">
+                    Ousmane <span class="gradient-text">Ba</span>
+                </h1>
+                <p class="hero-subtitle">Administrateur d'Infrastructures Sécurisées</p>
+                <p class="hero-description">
+                    Passionné par l'optimisation des infrastructures informatiques et la cybersécurité.
+                    Actuellement en alternance chez Iqera Services en tant qu'Administrateur d'Infrastructures
+                    Sécurisées (AIS),
+                    je recherche un poste en CDI à partir d'août 2026 pour continuer à développer mon expertise.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Me Contacter</a>
+                    <a href="#experience" class="btn btn-secondary">Voir mon parcours</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="images/profile.png" alt="Ousmane Ba">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À Propos de Moi</h2>
+                <p class="section-subtitle">
+                    Découvrez mon profil professionnel et mes objectifs de carrière
+                </p>
+            </div>
+            <div class="card">
+                <p class="card-description"
+                    style="font-size: var(--font-size-lg); line-height: 1.8; text-align: center; max-width: 900px; margin: 0 auto;">
+                    Administrateur d'Infrastructures Sécurisées en alternance chez Iqera Services depuis septembre 2025,
+                    je suis passionné par l'optimisation des infrastructures informatiques et la cybersécurité.
+                    Fort de 2 ans d'expérience en tant que Technicien Systèmes et Réseaux (2023-2025),
+                    je recherche un poste en CDI pour mettre à profit mon expertise en administration et sécurisation
+                    des infrastructures.
+                </p>
+                <div
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--spacing-xl); margin-top: var(--spacing-3xl);">
+                    <div style="text-align: center;">
+                        <div
+                            style="font-size: var(--font-size-4xl); font-weight: var(--font-weight-bold); background: var(--color-gradient-1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            2+</div>
+                        <p style="color: var(--color-text-muted); margin-top: var(--spacing-sm);">Années d'Expérience
+                        </p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div
+                            style="font-size: var(--font-size-4xl); font-weight: var(--font-weight-bold); background: var(--color-gradient-2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            15+</div>
+                        <p style="color: var(--color-text-muted); margin-top: var(--spacing-sm);">Compétences Techniques
+                        </p>
+                    </div>
+                    <div style="text-align: center;">
+                        <div
+                            style="font-size: var(--font-size-4xl); font-weight: var(--font-weight-bold); background: var(--color-gradient-3); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            100%</div>
+                        <p style="color: var(--color-text-muted); margin-top: var(--spacing-sm);">Motivation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Compétences Techniques</h2>
+                <p class="section-subtitle">
+                    Technologies et outils que je maîtrise pour gérer et sécuriser les infrastructures IT
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🔐 Gestion des Droits d'Accès</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">Active Directory</li>
+                        <li class="skill-item">GPO (Group Policy Objects)</li>
+                        <li class="skill-item">Gestion des comptes utilisateurs</li>
+                        <li class="skill-item">Réinitialisation de mots de passe</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🌐 Réseau</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">TCP/IP, DNS, DHCP</li>
+                        <li class="skill-item">Configuration réseau</li>
+                        <li class="skill-item">Dépannage réseau</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">☁️ Virtualisation</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">VMware ESXi</li>
+                        <li class="skill-item">VCenter</li>
+                        <li class="skill-item">VMware Horizon</li>
+                        <li class="skill-item">Hyper-V</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">💻 Systèmes d'Exploitation</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">Windows (avancé)</li>
+                        <li class="skill-item">Linux (les bases)</li>
+                        <li class="skill-item">Déploiement d'applications</li>
+                        <li class="skill-item">Gestion des services réseaux</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🛡️ Sécurité & Correctifs</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">WSUS</li>
+                        <li class="skill-item">Endpoint Central</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">📧 Messagerie</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">Microsoft Exchange</li>
+                        <li class="skill-item">Microsoft 365</li>
+                        <li class="skill-item">Office 365</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">🔧 Gestion du Matériel</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">GLPI (gestion des stocks)</li>
+                        <li class="skill-item">Microsoft Deployment Toolkit</li>
+                        <li class="skill-item">Installation et configuration</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">⚡ Atouts Personnels</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">Autonome</li>
+                        <li class="skill-item">Autodidacte</li>
+                        <li class="skill-item">Rigoureux</li>
+                        <li class="skill-item">Curieux</li>
+                        <li class="skill-item">Apprentissage rapide</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Expérience Professionnelle</h2>
+                <p class="section-subtitle">
+                    Mon parcours professionnel dans le domaine de l'informatique
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Administrateur d'Infrastructures Sécurisées (AIS)</h3>
+                            <span class="timeline-period">Sept. 2025 - Août 2026</span>
+                        </div>
+                        <p class="timeline-company">Iqera Service – Tours | Contrat d'apprentissage</p>
+                        <ul class="timeline-description">
+                            <li>Administration et sécurisation avancée des infrastructures IT</li>
+                            <li>Conception et mise en œuvre de solutions d'évolution des infrastructures</li>
+                            <li>Participation active à la gestion de la cybersécurité</li>
+                            <li>Maintien et optimisation des infrastructures existantes</li>
+                            <li>Support technique de niveau 2/3 aux utilisateurs</li>
+                            <li>Gestion des projets d'infrastructure et de sécurité</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Technicien Systèmes et Réseaux (TSSR)</h3>
+                            <span class="timeline-period">Sept. 2023 - Août 2025</span>
+                        </div>
+                        <p class="timeline-company">Iqera Service – Tours | Contrat d'apprentissage</p>
+                        <ul class="timeline-description">
+                            <li>Gérer des comptes AD (création, réactivation, ajout de droits) et des boîtes aux lettres
+                                partagées</li>
+                            <li>Mis à jour des stratégies de groupe (GPO) et déployé des applications</li>
+                            <li>Intervenir sur des postes de travail en environnement virtualisé (VDI)</li>
+                            <li>Géré les comptes sur AS400 ou Créance Web (création, réactivation, ajout de droits)</li>
+                            <li>Fournir une assistance technique aux utilisateurs, résolution de problèmes et bonnes
+                                pratiques</li>
+                            <li>Installer du matériel informatique en respectant les normes techniques et
+                                opérationnelles</li>
+                            <li>Préparer des postes informatiques pour le télétravail</li>
+                            <li>Gérer les tickets de demande et incidents selon le niveau d'intervention requis</li>
+                            <li>Gestion de boites aux lettres via le centre d'administration O365</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Employé Libre Service</h3>
+                            <span class="timeline-period">Sept. 2022 - Fév. 2023</span>
+                        </div>
+                        <p class="timeline-company">Auchan Chambray</p>
+                        <ul class="timeline-description">
+                            <li>Gestion des stocks et approvisionnement des rayons</li>
+                            <li>Service client et conseil aux clients</li>
+                            <li>Travail en équipe dans un environnement dynamique</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Agent de Production</h3>
+                            <span class="timeline-period">Juin 2022 - Août 2023</span>
+                        </div>
+                        <p class="timeline-company">Michelin Joué-les-Tours</p>
+                        <ul class="timeline-description">
+                            <li>Respect des procédures de production et de sécurité</li>
+                            <li>Travail en équipe dans un environnement industriel</li>
+                            <li>Rigueur et attention aux détails</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projets Réalisés</h2>
+                <p class="section-subtitle">
+                    Projets techniques réalisés durant mon alternance en tant qu'Administrateur d'Infrastructures
+                    Sécurisées
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">🔐</div>
+                    <h3 class="project-title">Décommissionnement de Domaines Active Directory</h3>
+                    <p class="project-description">
+                        Gestion complète du décommissionnement de domaines Active Directory incluant leurs contrôleurs
+                        de domaine (DC).
+                    </p>
+                    <ul class="project-details">
+                        <li>Planification et analyse d'impact sur l'infrastructure</li>
+                        <li>Migration des services et ressources critiques</li>
+                        <li>Transfert des rôles FSMO</li>
+                        <li>Rétrogradation et suppression des contrôleurs de domaine</li>
+                        <li>Vérification de l'intégrité post-décommissionnement</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span class="tag">Active Directory</span>
+                        <span class="tag">Windows Server</span>
+                        <span class="tag">Migration</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">💻</div>
+                    <h3 class="project-title">Migration VDI Windows 10 vers Windows 11</h3>
+                    <p class="project-description">
+                        Mise à jour complète des images VDI de Windows 10 vers Windows 11 dans un environnement vSphere
+                        7.0.3 et VMware Horizon.
+                    </p>
+                    <ul class="project-details">
+                        <li>Préparation et tests de compatibilité Windows 11</li>
+                        <li>Création et optimisation des nouvelles images VDI</li>
+                        <li>Configuration des pools de bureaux virtuels</li>
+                        <li>Déploiement progressif avec VMware Horizon</li>
+                        <li>Support et accompagnement des utilisateurs</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span class="tag">VMware Horizon</span>
+                        <span class="tag">vSphere 7.0.3</span>
+                        <span class="tag">Windows 11</span>
+                        <span class="tag">VDI</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">⚡</div>
+                    <h3 class="project-title">Mise à Jour ESXi vers VMware 8</h3>
+                    <p class="project-description">
+                        Upgrade de l'infrastructure de virtualisation avec mise à jour des serveurs ESXi vers VMware
+                        vSphere 8.
+                    </p>
+                    <ul class="project-details">
+                        <li>Audit de compatibilité matérielle et logicielle</li>
+                        <li>Planification de la stratégie de mise à jour</li>
+                        <li>Sauvegarde complète de la configuration</li>
+                        <li>Mise à jour progressive des hôtes ESXi</li>
+                        <li>Tests de validation et optimisation des performances</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span class="tag">VMware ESXi</span>
+                        <span class="tag">vSphere 8</span>
+                        <span class="tag">Virtualisation</span>
+                        <span class="tag">Upgrade</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Formation</h2>
+                <p class="section-subtitle">
+                    Mon parcours académique et mes certifications
+                </p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Administrateur d'Infrastructures Sécurisées</h3>
+                            <span class="timeline-period">2025 - 2027</span>
+                        </div>
+                        <p class="timeline-company">2itech Academy | Bac+3/4 en alternance</p>
+                        <p class="timeline-company" style="font-style: italic; color: var(--color-accent-primary);">
+                            Rythme: 1 semaine en école et 3 semaines en entreprise
+                        </p>
+                        <ul class="timeline-description">
+                            <li>Exploiter les éléments de l'infrastructure et assurer le support aux utilisateurs</li>
+                            <li>Maintenir l'infrastructure et contribuer à son évolution et à sa sécurisation</li>
+                            <li>Administrer et sécuriser les infrastructures</li>
+                            <li>Concevoir et mettre en œuvre une solution en réponse à un besoin d'évolution</li>
+                            <li>Participer à la gestion de la Cybersécurité</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Titre Technicien Systèmes et Réseaux</h3>
+                            <span class="timeline-period">2023 - 2025</span>
+                        </div>
+                        <p class="timeline-company">2itech Academy | Bac+2 en alternance</p>
+                        <ul class="timeline-description">
+                            <li>Administration des systèmes Windows et Linux</li>
+                            <li>Configuration et maintenance des réseaux</li>
+                            <li>Support technique et assistance utilisateurs</li>
+                            <li>Virtualisation et gestion des infrastructures</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Licence 1 Mathématiques</h3>
+                            <span class="timeline-period">2021</span>
+                        </div>
+                        <p class="timeline-company">Université de Tours</p>
+                        <ul class="timeline-description">
+                            <li>Coder la structure d'une page en HTML5 et CSS</li>
+                            <li>Modélisation mathématiques</li>
+                            <li>Projet : création de site web jeu en ligne</li>
+                            <li>Programmation Orienté Objet / POO: Python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Me Contacter</h2>
+                <p class="section-subtitle">
+                    N'hésitez pas à me contacter pour toute opportunité en CDI à partir d'août 2026
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-info">
+                        <h4>Email</h4>
+                        <p style="word-break: break-all;">obousmane123@email.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-info">
+                        <h4>Téléphone</h4>
+                        <p>06 14 80 29 00</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-info">
+                        <h4>Localisation</h4>
+                        <p>Tours, Paris, Bordeaux</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🚗</div>
+                    <div class="contact-info">
+                        <h4>Permis</h4>
+                        <p>Permis B (sénégalais)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+        style="background: var(--color-bg-secondary); padding: var(--spacing-xl); text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+        <p style="color: var(--color-text-muted); margin: 0;">
+            © 2025 Ousmane Ba. Tous droits réservés.
+        </p>
+        <p style="color: var(--color-text-muted); margin-top: var(--spacing-sm); font-size: var(--font-size-sm);">
+            Conçu avec passion 💙
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
